@@ -1,0 +1,15 @@
+MadeOf Wood
+NoShadows
+NoCull
+VertexSkin
+
+PhongEnvironment
+{
+	DiffuseMap base/texturelib/grey.tga
+	NormalMap base/texturelib/flatNorm.tga
+	UseSpecular
+	SpecularExponent 10
+	SpecularColor 1 1 1
+	SpecularIntensity 0.661932
+}
+

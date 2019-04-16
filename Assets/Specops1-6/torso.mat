@@ -1,0 +1,14 @@
+MadeOf Wood
+
+PhongEnvironment
+{
+	DiffuseMap C:/Users/Luis/Desktop/characters/specops/models/specops_torso_d.tga
+	NormalMap C:/Users/Luis/Desktop/characters/specops/models/specops_torso_n.tga
+	SpecularMap C:/Users/Luis/Desktop/characters/specops/models/specops_torso_s.tga
+	UseSpecular
+	SpecularExponent 31.8354
+	SpecularColor 1 1 1
+	SpecularIntensity 0.399927
+	Fresnel 0.535196
+}
+

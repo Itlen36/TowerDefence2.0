@@ -1,0 +1,17 @@
+MadeOf Wood
+NoShadows
+NoCull
+
+PhongEnvironment
+{
+	BlendMode AlphaPreMult
+	DiffuseMap C:/Users/Luis/Desktop/characters/specops/models/specops_goggles_d.tga
+	NormalMap C:/Users/Luis/Desktop/characters/specops/models/specops_goggles_n.tga
+	SpecularMap C:/Users/Luis/Desktop/characters/specops/models/specops_goggles_s.tga
+	UseSpecular
+	SpecularExponent 31.8354
+	SpecularColor 1 1 1
+	SpecularIntensity 0.367109
+	Fresnel 0.217666
+}
+

@@ -1,0 +1,17 @@
+MadeOf Wood
+NoShadows
+NoCull
+VertexSkin
+
+PhongEnvironment
+{
+	DiffuseMap C:/Users/Luis/Desktop/characters/specops/models/specops_gear02_d.tga
+	NormalMap C:/Users/Luis/Desktop/characters/specops/models/specops_gear02_n.tga
+	SpecularMap C:/Users/Luis/Desktop/characters/specops/models/specops_gear02_s.tga
+	UseSpecular
+	SpecularExponent 46.2227
+	SpecularColor 1 1 1
+	SpecularIntensity 0.196411
+	Fresnel 1.37232
+}
+

@@ -1,0 +1,8 @@
+MadeOf Wood
+
+PhongEnvironment
+{
+	DiffuseMap C:/Users/Luis/Desktop/characters/specops/models/specops_gear04_d.tga
+	NormalMap base/texturelib/flatNorm.tga
+}
+

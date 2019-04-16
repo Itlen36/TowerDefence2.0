@@ -1,0 +1,13 @@
+MadeOf Wood
+
+PhongEnvironment
+{
+	DiffuseMap C:/Users/Luis/Desktop/characters/specops/models/specops_legs_d.tga
+	NormalMap C:/Users/Luis/Desktop/characters/specops/models/specops_legs_n.tga
+	SpecularMap C:/Users/Luis/Desktop/characters/specops/models/specops_legs_s.tga
+	UseSpecular
+	SpecularExponent 26.4801
+	SpecularColor 1 1 1
+	SpecularIntensity 0.86942
+}
+
