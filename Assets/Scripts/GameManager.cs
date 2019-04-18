@@ -61,8 +61,8 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        // if (PlayerPrefs.HasKey("Level"))
-        //    CurrentLevel = PlayerPrefs.GetInt("Level");
+        if (PlayerPrefs.HasKey("Level"))
+            CurrentLevel = PlayerPrefs.GetInt("Level");
         _LevelText.text = "Level: " + CurrentLevel;
         _buttonPlay.gameObject.SetActive(false);
         _PanelGameOver.SetActive(false);
@@ -92,7 +92,7 @@ public class GameManager : MonoBehaviour
         availablePlans = new bool[FieldWidth, FieldLength];
         for (int i = 0; i < FieldWidth; i++)
             for (int j = 0; j < FieldLength; j++)
-                availablePlans[i,j]  = StartAvailablePlans[i,j];
+                availablePlans[i, j] = StartAvailablePlans[i, j];
         GameObject[] Guns = new GameObject[3];
         Guns[0] = _MachineGun;
         Guns[1] = _DoubleMachineGun;
@@ -160,18 +160,18 @@ public class GameManager : MonoBehaviour
         enemy.Clear();
         _PauseTime = 0;
         TowerHealth = 100;
-        coins = StarCoins[CurrentLevel-1];
+        coins = StarCoins[CurrentLevel - 1];
         indPositionSelection = -1;
         _LastCoins = 0;
         _LastTowerHealth = 0;
-        CourseEnemy = new List<course>(_Levels[CurrentLevel-1]);
+        CourseEnemy = new List<course>(_Levels[CurrentLevel - 1]);
         _TimeStartOfGame = Time.time;
         play = true;
     }
     private void PauseGame()
     {
         play = false;
-        _LevelText.text ="Level" + CurrentLevel.ToString();
+        _LevelText.text = "Level" + CurrentLevel.ToString();
         _buttonPlay.gameObject.SetActive(true);
         _TimeSartOfPause = Time.time;
         _PanelMenu.SetActive(true);
@@ -216,7 +216,7 @@ public class GameManager : MonoBehaviour
             if (_LastTowerHealth != TowerHealth)
             {
                 _LastTowerHealth = TowerHealth;
-                if (TowerHealth<=0)
+                if (TowerHealth <= 0)
                 {
                     play = false;
                     _HealthText.text = "Health: 0";
